@@ -1,0 +1,135 @@
+/*
+*Estilos generales
+*/
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+/*
+*Estilos fondo vista splash
+*/
+
+.loader{
+  background-image: url(../img/splash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 3;
+  text-align: center;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.loader i {
+  font-size: 45px;
+  color: #090009
+}
+
+
+.fondo {
+  height: 100vh;
+  background-image: url(../img/chicago.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 3;
+  text-align: center;
+}
+
+.whitelogo {
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.login,.signup {
+  background-color: #000;
+  color: white;
+  padding: 4vh 7.5vh;
+  border-radius: 4px;
+  border-color: #fff;
+  margin-bottom: 2%;
+  z-index: 3;
+}
+
+.btn-default {
+  background-color: #000;
+  font-weight: bold;
+  border-color: #000;
+  color: #FFF;
+}
+
+/*
+*Estilos vista mainfull
+*/
+
+
+#volver i {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+/*
+*Estilos formulario signup
+*/
+
+#form {
+  color: #000;
+  background-color: #D2B9B9;
+  height: 700px;
+  padding: 5px 35px;
+}
+
+#formLog{
+  padding: 5px 35px;
+}
+
+.disabled {
+  background-color: #999999;
+}
+
+/*
+*Estilos formulario login
+*/
+
+.datos {
+  text-align: center;
+  color: #000;
+  background-color: #D2B9B9;
+  height: 700px;
+}
+
+#volver2 i {
+  font-size: 25px;
+  margin-left: -680px;
+  margin-top: 63px;
+  display: inline-block;
+}
+
+.ckbx span {
+  color: blue;
+}
